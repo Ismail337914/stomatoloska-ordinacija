@@ -1,0 +1,1364 @@
+You are an expert senior frontend developer, UI/UX designer, local SEO specialist, and technical SEO engineer.
+
+Your task is to build a production-quality DEMO WEBSITE for:
+
+STOMATOLOŠKA ORDINACIJA DR. AIDA H. KALJANAC
+
+This is a sales demo that will be shown directly to the clinic owner. It must look like a real, premium website for an established dental clinic — NOT like a generic AI-generated template.
+
+IMPORTANT:
+Do not invent facts, medical claims, services, qualifications, awards, years of experience, equipment, prices, staff members, testimonials, or other business information.
+
+If information is not explicitly provided below, either:
+1. do not mention it,
+2. use neutral copy,
+3. or structure the UI so the information can easily be added later.
+
+Do NOT fabricate information simply to make the website look more complete.
+
+==================================================
+1. PROJECT GOAL
+==================================================
+
+Build a modern, premium, trustworthy dental clinic website focused on:
+
+- Local SEO
+- Conversion
+- Mobile usability
+- Professional visual presentation
+- Strong trust signals
+- Clear contact/appointment CTAs
+- Semantic HTML
+- Technical SEO
+- Fast performance
+- Accessibility
+
+Primary SEO target:
+
+"stomatolog Stup"
+
+Secondary targets:
+
+"stomatološka ordinacija Stup"
+"zubar Stup"
+"stomatolog Stup Sarajevo"
+"stomatolog Ilidža"
+"stomatološka ordinacija Ilidža"
+"zubar Ilidža"
+"stomatolog Sarajevo"
+"stomatološka ordinacija Sarajevo"
+
+Do NOT keyword-stuff the page.
+
+Keywords must appear naturally in meaningful content.
+
+The website should be written primarily in Bosnian/Croatian/Serbian Latin script, with natural Bosnian wording.
+
+==================================================
+2. VERIFIED BUSINESS INFORMATION
+==================================================
+
+Use ONLY these verified facts:
+
+Business name:
+Stomatološka Ordinacija Dr. Aida H. Kaljanac
+
+Doctor/business name:
+Dr. Aida H. Kaljanac
+
+Officially registered activity:
+Polivalentne stomatološke usluge
+
+Address:
+Stupska bb
+71210 Ilidža
+Bosna i Hercegovina
+
+Phone:
++387 62 408 887
+
+Phone display:
+062 408 887
+
+Google rating:
+4.9 / 5
+
+Google review count:
+181 reviews
+
+Google Business category:
+Dentist / Zubar
+
+Opening hours:
+Monday: 12:00–20:00
+Tuesday: 12:00–20:00
+Wednesday: 12:00–20:00
+Thursday: 12:00–20:00
+Friday: 12:00–20:00
+Saturday: 10:00–14:00
+Sunday: Closed
+
+Location:
+Stup / Ilidža / Sarajevo
+
+Approximate coordinates from the public Google Maps listing:
+Latitude: 43.8407425
+Longitude: 18.3262514
+
+IMPORTANT:
+The coordinates are only for the structured location/map implementation.
+Do not display coordinates to users.
+
+==================================================
+3. INFORMATION THAT MUST NOT BE INVENTED
+==================================================
+
+DO NOT invent:
+
+- Years of experience
+- Number of patients
+- Number of treated patients
+- University degrees
+- Specializations
+- Medical certifications
+- Awards
+- Dental equipment
+- Brands of equipment
+- Exact treatment techniques
+- Prices
+- Financing options
+- Insurance information
+- Emergency services
+- Languages spoken
+- Number of employees
+- Names of employees
+- Additional doctors
+- Specific dental treatments unless explicitly confirmed
+- Medical success rates
+- Guaranteed results
+- Before/after claims
+- Patient testimonials
+- Patient names
+- Google review text
+- Clinic history
+- Founding year
+- "20+ years of experience"
+- "Thousands of satisfied patients"
+- "State-of-the-art equipment"
+- "Pain-free dentistry"
+- "Best dentist in Sarajevo"
+- "Leading dental clinic"
+- "Number one dentist"
+- Any other unverifiable superlative
+
+Never generate fake testimonials.
+
+Never create fake statistics.
+
+Never create fake logos/certificates.
+
+Never use fake medical claims.
+
+If a section requires information that we do not have, make the section visually useful using neutral wording or omit it.
+
+==================================================
+4. TECH STACK
+==================================================
+
+First inspect the existing project.
+
+If the project already has a framework, preserve it unless there is a compelling technical reason not to.
+
+Preferred stack:
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Lucide React for icons
+- Semantic HTML
+- Modern CSS
+- Responsive design
+
+Do not introduce unnecessary dependencies.
+
+Do not use huge UI libraries for simple components.
+
+Keep the code clean, modular and reusable.
+
+==================================================
+5. DESIGN DIRECTION
+==================================================
+
+The visual identity must be based on the ACTUAL clinic interior.
+
+The uploaded clinic photo shows:
+
+- white walls
+- strong green accent wall
+- green dental chair
+- white dental equipment
+- natural/leaf-inspired green decoration
+- bright clinical environment
+- clean medical aesthetic
+
+Therefore the website should use:
+
+PRIMARY:
+Emerald / medical green
+
+SECONDARY:
+Dark green
+
+BACKGROUND:
+Warm white / very light green-white
+
+TEXT:
+Dark charcoal / deep green
+
+SURFACES:
+White
+
+The website should feel:
+
+- premium
+- clean
+- calm
+- trustworthy
+- modern
+- professional
+- warm
+- medical without feeling sterile
+
+Do NOT make it look like:
+
+- a SaaS landing page
+- a crypto website
+- a generic startup
+- a template marketplace dental website
+- an overly futuristic website
+- an aggressive luxury website
+
+Avoid excessive gradients.
+
+Avoid excessive glassmorphism.
+
+Avoid neon colors.
+
+Avoid huge blobs.
+
+Avoid unnecessary 3D illustrations.
+
+Avoid excessive animations.
+
+==================================================
+6. TYPOGRAPHY
+==================================================
+
+Use a modern premium sans-serif.
+
+Preferred:
+
+Manrope
+
+Fallback:
+
+Inter
+system-ui
+sans-serif
+
+Use clear typography hierarchy.
+
+H1 should be strong but not absurdly large on mobile.
+
+Body text must remain highly readable.
+
+Use generous whitespace.
+
+==================================================
+7. BORDER RADIUS / UI
+==================================================
+
+Use modern but restrained rounding:
+
+Cards:
+16–20px
+
+Large image containers:
+20–28px
+
+Buttons:
+12–14px
+
+Do not make everything pill-shaped.
+
+Use subtle borders and shadows.
+
+Avoid excessive shadows.
+
+==================================================
+8. PAGE STRUCTURE
+==================================================
+
+Create a single-page homepage with these sections:
+
+1. Navigation
+2. Hero
+3. Trust / Google rating
+4. Introduction
+5. Services
+6. Why choose us
+7. Patient journey / process
+8. Clinic image / about
+9. Reviews
+10. Location and contact
+11. FAQ
+12. Final CTA
+13. Footer
+
+Use anchor navigation.
+
+Suggested anchors:
+
+#usluge
+#ordinacija
+#recenzije
+#lokacija
+#faq
+#kontakt
+
+==================================================
+9. NAVIGATION
+==================================================
+
+Desktop navigation:
+
+Logo / clinic name
+
+Links:
+
+Usluge
+O ordinaciji
+Recenzije
+Lokacija
+FAQ
+
+CTA:
+
+Zakažite pregled
+
+On mobile:
+
+Use a clean hamburger menu.
+
+The phone number should be easy to access.
+
+Sticky mobile CTA is allowed if implemented elegantly.
+
+Do not make the navigation oversized.
+
+==================================================
+10. HERO
+==================================================
+
+The hero is the most important visual section.
+
+Use the real uploaded clinic image.
+
+Expected image path:
+
+/images/aida/clinic-interior.webp
+
+If the file is not present, create the component with a clear placeholder path and do NOT generate a fake clinic photo.
+
+Hero layout:
+
+Desktop:
+Two-column layout.
+
+Left:
+Copy + CTA
+
+Right:
+Large clinic photograph.
+
+Mobile:
+Copy first, image second.
+
+Hero eyebrow:
+
+"STOMATOLOŠKA ORDINACIJA · STUP · ILIDŽA"
+
+Main H1:
+
+"Zdrav osmijeh počinje povjerenjem."
+
+Supporting text:
+
+"Stomatološka ordinacija Dr. Aida H. Kaljanac pruža polivalentne stomatološke usluge na Stupu, Ilidža, uz individualan pristup svakom pacijentu."
+
+Primary CTA:
+
+"Zakažite pregled"
+
+Secondary CTA:
+
+"062 408 887"
+
+The phone CTA must use:
+
+tel:+38762408887
+
+Add a small trust element near the hero:
+
+"4.9 / 5"
+"181 Google recenzija"
+
+Do not claim that these are testimonials or satisfaction guarantees.
+
+Use:
+
+"Google recenzije"
+
+or
+
+"Ocjena na Googleu"
+
+rather than inventing additional claims.
+
+==================================================
+11. HERO IMAGE
+==================================================
+
+Use the provided real clinic image.
+
+Important:
+
+The uploaded image is a real photograph from the clinic.
+
+Do not alter the doctor's identity.
+
+Do not generate another person.
+
+Do not use AI-generated people.
+
+Do not create fake clinic imagery.
+
+Do not stretch the image.
+
+Use:
+
+object-fit: cover
+
+but choose a crop that preserves the important parts of the photograph.
+
+On desktop, the image should feel editorial and premium.
+
+Use rounded corners.
+
+Potentially add a subtle floating trust card:
+
+4.9 ★
+181 Google recenzija
+
+Do not cover the doctor's face.
+
+==================================================
+12. INTRODUCTION SECTION
+==================================================
+
+Heading:
+
+"Stomatologija na Stupu kojoj možete vjerovati"
+
+Body copy:
+
+"Smještena na Stupu, na području Ilidže, Stomatološka ordinacija Dr. Aida H. Kaljanac pruža polivalentne stomatološke usluge pacijentima sa područja Stupa, Ilidže i Sarajeva."
+
+Second paragraph:
+
+"Na stranici možete pronaći osnovne informacije o ordinaciji, lokaciji, radnom vremenu i načinu kontakta."
+
+Keep this section concise.
+
+Do not invent clinic history.
+
+==================================================
+13. SERVICES
+==================================================
+
+Heading:
+
+"Stomatološke usluge"
+
+Intro:
+
+"Ordinacija je registrovana za pružanje polivalentnih stomatoloških usluga."
+
+IMPORTANT:
+
+We do NOT currently have a verified complete list of individual treatments.
+
+Therefore do not invent a detailed list of treatments and do not make unsupported medical claims.
+
+Instead, create a clean service presentation that can easily be updated later.
+
+Possible neutral categories can be presented only if clearly labeled as categories to be confirmed, OR preferably use:
+
+"Polivalentna stomatologija"
+
+with supporting copy:
+
+"Širok pristup stomatološkoj njezi prilagođen potrebama pacijenta."
+
+CTA:
+
+"Informišite se o uslugama"
+
+which scrolls to contact.
+
+Structure the services data in a separate TypeScript object so the clinic's actual services can be added later without rewriting components.
+
+Example:
+
+const services = [
+  {
+    title: "...",
+    description: "...",
+    icon: ...
+  }
+];
+
+Do not hardcode service assumptions throughout the JSX.
+
+==================================================
+14. WHY CHOOSE US
+==================================================
+
+Heading:
+
+"Jednostavno do stomatološke njege"
+
+Use 3–4 cards.
+
+Use only defensible statements.
+
+Card 1:
+"Individualan pristup"
+"Pristup stomatološkoj njezi prilagođen individualnim potrebama pacijenta."
+
+Card 2:
+"Lokacija na Stupu"
+"Ordinacija se nalazi na području Stupa, Ilidža."
+
+Card 3:
+"Jednostavan kontakt"
+"Za informacije i dogovor termina dostupni smo putem telefona."
+
+Card 4:
+"Provjereno povjerenje"
+"Ocjena 4.9/5 na Googleu na osnovu 181 recenzije."
+
+Do not add fake benefits such as:
+"najmodernija oprema"
+"bezbolni tretmani"
+"20 godina iskustva"
+
+==================================================
+15. PATIENT JOURNEY
+==================================================
+
+Create a simple 4-step visual process:
+
+01
+Zakažite termin
+
+02
+Pregled i razgovor
+
+03
+Procjena potreba
+
+04
+Dogovor o narednim koracima
+
+Use neutral wording.
+
+Do not imply that every patient receives a particular procedure.
+
+This section exists to reduce friction and explain what contacting the clinic looks like.
+
+==================================================
+16. ABOUT / CLINIC IMAGE
+==================================================
+
+Create an elegant image + text section.
+
+Use the actual uploaded clinic image.
+
+Heading:
+
+"Važno nam je da se osjećate sigurno"
+
+Copy:
+
+"Stomatološka ordinacija Dr. Aida H. Kaljanac nalazi se na Stupu, na području Ilidže. Cilj stranice je da pacijentima na jednom mjestu pruži jasne informacije o ordinaciji, kontaktu i lokaciji."
+
+Do not invent a clinic story.
+
+Do not invent qualifications.
+
+Do not invent equipment.
+
+==================================================
+17. REVIEWS
+==================================================
+
+This section is important.
+
+Display:
+
+4.9 / 5
+181 Google recenzija
+
+Heading:
+
+"Iskustva pacijenata"
+
+BUT:
+
+Do NOT fabricate review text.
+
+Do not create fake review cards.
+
+Do not write fictional patient names.
+
+Do not write:
+
+"Amra K."
+"★★★★★"
+"Najbolji stomatolog ikad..."
+
+unless actual review data is provided.
+
+Instead create a tasteful Google review summary block:
+
+"4.9 / 5 na osnovu 181 Google recenzije"
+
+CTA:
+
+"Pogledajte recenzije na Googleu"
+
+If the actual Google Business URL is not available in the code, make this a placeholder constant:
+
+const googleBusinessUrl = "";
+
+Do not invent the URL.
+
+==================================================
+18. LOCATION
+==================================================
+
+Heading:
+
+"Pronađite nas na Stupu"
+
+Address:
+
+"Stupska bb"
+"71210 Ilidža"
+"Bosna i Hercegovina"
+
+Phone:
+
+"062 408 887"
+
+Clickable phone:
+
+tel:+38762408887
+
+Hours:
+
+Ponedjeljak – Petak
+12:00 – 20:00
+
+Subota
+10:00 – 14:00
+
+Nedjelja
+Zatvoreno
+
+Use a map section.
+
+If using Google Maps iframe, do not hardcode an invented API key.
+
+Prefer a clean link/button to Google Maps using the provided location information.
+
+If embedding a map without an API key is not technically appropriate, use a styled location card with a button:
+
+"Otvorite lokaciju na Google Mapsu"
+
+Do not invent a shortened Maps URL.
+
+==================================================
+19. FAQ
+==================================================
+
+Create an accessible accordion.
+
+Heading:
+
+"Česta pitanja"
+
+Questions:
+
+1.
+"Gdje se nalazi stomatološka ordinacija Dr. Aida H. Kaljanac?"
+
+Answer:
+"Ordinacija se nalazi u Stupskoj bb, 71210 Ilidža, Sarajevo."
+
+2.
+"Kako mogu kontaktirati ordinaciju?"
+
+Answer:
+"Za informacije i dogovor termina možete pozvati 062 408 887."
+
+3.
+"Gdje mogu pronaći stomatologa na Stupu?"
+
+Answer:
+"Stomatološka ordinacija Dr. Aida H. Kaljanac nalazi se na Stupu, na području Ilidže u Sarajevu."
+
+4.
+"Koje stomatološke usluge pruža ordinacija?"
+
+Answer:
+"Ordinacija je registrovana za pružanje polivalentnih stomatoloških usluga. Za informacije o konkretnim uslugama i terminima kontaktirajte ordinaciju."
+
+5.
+"Kada ordinacija radi?"
+
+Answer:
+"Ordinacija radi ponedjeljkom do petka od 12:00 do 20:00 i subotom od 10:00 do 14:00. Nedjeljom je zatvorena."
+
+Do not create more FAQs just for keyword density.
+
+==================================================
+20. FINAL CTA
+==================================================
+
+Create a strong but calm final CTA.
+
+Heading:
+
+"Vrijeme je za vaš sljedeći pregled."
+
+Text:
+
+"Kontaktirajte Stomatološku ordinaciju Dr. Aida H. Kaljanac za informacije i dogovor termina."
+
+Primary button:
+
+"Zakažite pregled"
+
+Secondary:
+
+"Pozovite 062 408 887"
+
+Phone must use:
+
+tel:+38762408887
+
+==================================================
+21. FOOTER
+==================================================
+
+Include:
+
+Stomatološka Ordinacija Dr. Aida H. Kaljanac
+
+Stupska bb
+71210 Ilidža
+Bosna i Hercegovina
+
+062 408 887
+
+Opening hours
+
+Navigation links
+
+Copyright:
+
+"© 2026 Stomatološka Ordinacija Dr. Aida H. Kaljanac"
+
+Do not add fake social media accounts.
+
+Do not add fake email address.
+
+Do not add fake website links.
+
+==================================================
+22. SEO IMPLEMENTATION
+==================================================
+
+Implement proper technical SEO.
+
+Title:
+
+"Stomatolog Stup | Dr. Aida H. Kaljanac"
+
+Meta description:
+
+"Stomatološka ordinacija Dr. Aida H. Kaljanac na Stupu, Ilidža. Polivalentne stomatološke usluge, 4.9★ Google ocjena i direktan kontakt za termine."
+
+Canonical URL must be configurable through a constant/environment variable.
+
+Do not hardcode an imaginary production domain.
+
+Use semantic HTML:
+
+<header>
+<nav>
+<main>
+<section>
+<article>
+<footer>
+
+Only one H1.
+
+Suggested H1:
+
+"Zdrav osmijeh počinje povjerenjem."
+
+Use H2s logically:
+
+Stomatologija na Stupu kojoj možete vjerovati
+Stomatološke usluge
+Jednostavno do stomatološke njege
+Važno nam je da se osjećate sigurno
+Iskustva pacijenata
+Pronađite nas na Stupu
+Česta pitanja
+
+Use keywords naturally.
+
+Do not repeat:
+
+"stomatolog Stup"
+
+in every heading.
+
+==================================================
+23. IMAGE SEO
+==================================================
+
+For the actual clinic image:
+
+Suggested filename:
+
+stomatoloska-ordinacija-dr-aida-kaljanac-stup.webp
+
+Suggested alt:
+
+"Stomatološka ordinacija Dr. Aida H. Kaljanac na Stupu u Sarajevu"
+
+Do not keyword stuff alt text.
+
+Use WebP or AVIF where appropriate.
+
+Use width/height attributes where appropriate to reduce layout shift.
+
+Use lazy loading for below-the-fold images.
+
+Hero image may use eager loading/fetchpriority high if appropriate.
+
+Do not use enormous image files.
+
+==================================================
+24. STRUCTURED DATA / SCHEMA
+==================================================
+
+Implement JSON-LD.
+
+Use:
+
+Dentist
+
+or an appropriate LocalBusiness subtype supported by Schema.org.
+
+Basic structure:
+
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Stomatološka Ordinacija Dr. Aida H. Kaljanac",
+  "telephone": "+38762408887",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Stupska bb",
+    "postalCode": "71210",
+    "addressLocality": "Ilidža",
+    "addressCountry": "BA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.8407425,
+    "longitude": 18.3262514
+  },
+  "areaServed": [
+    "Stup",
+    "Ilidža",
+    "Sarajevo"
+  ]
+}
+
+Add openingHoursSpecification using the verified opening hours.
+
+Do NOT add:
+
+aggregateRating
+
+unless it is implemented in a way that complies with current Google structured-data guidelines.
+
+Do NOT fabricate review markup.
+
+Do not add fake sameAs links.
+
+Do not add fake social profiles.
+
+Keep schema valid and conservative.
+
+==================================================
+25. FAQ STRUCTURED DATA
+==================================================
+
+You may implement FAQPage JSON-LD if appropriate.
+
+However, the visible FAQ content and structured data MUST be identical.
+
+Do not create hidden FAQ content solely for search engines.
+
+==================================================
+26. LOCAL SEO
+==================================================
+
+The website must clearly establish the relationship between:
+
+Stup
+Ilidža
+Sarajevo
+
+Use natural wording such as:
+
+"na Stupu"
+"područje Ilidže"
+"u Sarajevu"
+
+Do not repeatedly write:
+
+"stomatolog Stup Sarajevo Ilidža"
+
+That is keyword stuffing.
+
+Maintain consistent NAP information:
+
+Name:
+Stomatološka Ordinacija Dr. Aida H. Kaljanac
+
+Address:
+Stupska bb, 71210 Ilidža, Bosnia and Herzegovina
+
+Phone:
++387 62 408 887
+
+==================================================
+27. RESPONSIVE DESIGN
+==================================================
+
+Mobile-first.
+
+Breakpoints should be sensible.
+
+The website must work properly at:
+
+320px
+375px
+390px
+430px
+768px
+1024px
+1280px
+1440px
+1920px
+
+On mobile:
+
+- No horizontal overflow
+- Buttons should be easy to tap
+- Phone CTA should remain accessible
+- Navigation should collapse
+- Hero image should not become ridiculously tall
+- Typography should scale
+- Cards should become one column
+- Map/location content should stack
+- FAQ should remain usable
+- No tiny text
+
+Use CSS clamp() where useful.
+
+==================================================
+28. ACCESSIBILITY
+==================================================
+
+Implement:
+
+- semantic HTML
+- keyboard navigation
+- visible focus states
+- accessible buttons
+- accessible accordion
+- proper aria-expanded for FAQ
+- proper aria-controls
+- descriptive alt text
+- sufficient contrast
+- reduced motion support
+
+Respect:
+
+prefers-reduced-motion
+
+Do not make critical information dependent on animation.
+
+==================================================
+29. ANIMATIONS
+==================================================
+
+Use subtle animations only.
+
+Allowed:
+
+- fade-up
+- subtle slide
+- image reveal
+- hover elevation
+- button transitions
+
+Animation duration:
+
+roughly 200–600ms
+
+Avoid:
+
+- parallax everywhere
+- spinning elements
+- excessive bouncing
+- scroll-jacking
+- huge motion
+- animations that interfere with accessibility
+
+Respect prefers-reduced-motion.
+
+==================================================
+30. PERFORMANCE
+==================================================
+
+Target excellent Lighthouse performance.
+
+Avoid:
+
+- huge JavaScript bundles
+- unnecessary libraries
+- huge images
+- autoplay video
+- unnecessary third-party scripts
+
+Optimize:
+
+- images
+- fonts
+- CSS
+- component rendering
+
+Do not load external resources unless necessary.
+
+==================================================
+31. COMPONENT ARCHITECTURE
+==================================================
+
+Create reusable components.
+
+Suggested:
+
+src/
+  components/
+    Navbar.tsx
+    Hero.tsx
+    TrustBar.tsx
+    IntroSection.tsx
+    Services.tsx
+    Benefits.tsx
+    PatientJourney.tsx
+    AboutClinic.tsx
+    Reviews.tsx
+    Location.tsx
+    FAQ.tsx
+    FinalCTA.tsx
+    Footer.tsx
+
+  data/
+    clinic.ts
+
+  seo/
+    structuredData.ts
+
+Keep business information centralized in:
+
+clinic.ts
+
+Example:
+
+export const clinic = {
+  name: "...",
+  doctor: "...",
+  phone: "...",
+  address: {
+    street: "...",
+    postalCode: "...",
+    city: "...",
+    country: "..."
+  },
+  hours: [...],
+  rating: 4.9,
+  reviewCount: 181
+};
+
+This is extremely important because this project will later become a reusable dental website system for other clinics.
+
+==================================================
+32. REUSABILITY
+==================================================
+
+The architecture must allow another clinic to be created by changing:
+
+- clinic name
+- doctor name
+- colors
+- logo
+- images
+- services
+- address
+- phone
+- opening hours
+- reviews
+- SEO metadata
+
+Do not tightly couple the components to Aida's data.
+
+==================================================
+33. DESIGN DETAILS
+==================================================
+
+Use a visual rhythm.
+
+Hero:
+large whitespace
+
+Trust:
+compact horizontal strip
+
+Services:
+clean cards
+
+About:
+large image + text
+
+Reviews:
+strong but minimal
+
+Location:
+large contact block
+
+FAQ:
+simple accordion
+
+Final CTA:
+strong green background or elegant dark-green section
+
+Footer:
+minimal
+
+Use subtle green decorative elements inspired by the clinic's leaf pattern.
+
+Do NOT literally copy the wall decoration everywhere.
+
+Use it as subtle visual inspiration.
+
+==================================================
+34. ICONS
+==================================================
+
+Use Lucide React or another lightweight icon system.
+
+Suggested icons:
+
+Phone
+MapPin
+Clock
+Calendar
+ShieldCheck
+HeartPulse
+Smile
+ChevronDown
+Star
+
+Do not use random emoji as UI icons.
+
+==================================================
+35. BUTTONS
+==================================================
+
+Primary button:
+
+"Zakažite pregled"
+
+Secondary:
+
+"Pozovite 062 408 887"
+
+Buttons must have:
+
+- hover state
+- focus state
+- active state
+- mobile-friendly sizing
+
+Primary CTA should use the green brand color.
+
+==================================================
+36. LOGO
+==================================================
+
+If no official logo file is available:
+
+Do NOT invent a complex logo.
+
+Create a simple typographic wordmark:
+
+"Dr. Aida H. Kaljanac"
+
+Optionally use a very minimal dental-inspired icon.
+
+But do not create a fake official logo.
+
+Make it easy to replace later with the clinic's actual logo.
+
+==================================================
+37. CONTENT QUALITY
+==================================================
+
+The writing must sound like a real professional Bosnian dental clinic.
+
+Avoid generic AI phrases such as:
+
+"Vaš osmijeh je naša strast."
+
+"Mi koristimo najnoviju tehnologiju."
+
+"Naš tim stručnjaka."
+
+"Revolucionarni tretmani."
+
+"Najbolji stomatolog u Sarajevu."
+
+"Brinemo o svakom detalju."
+
+unless they can be factually supported.
+
+Prefer clear, calm, specific language.
+
+==================================================
+38. SALES-DEMO QUALITY
+==================================================
+
+Remember:
+
+This website is NOT merely an SEO experiment.
+
+The clinic owner must immediately think:
+
+"This looks like my actual business."
+
+The first impression should communicate:
+
+- credibility
+- professionalism
+- trust
+- clarity
+- modernity
+- local relevance
+
+Do not make SEO visible as a gimmick.
+
+The SEO should be embedded naturally into the content and technical structure.
+
+==================================================
+39. GOOGLE MAPS
+==================================================
+
+The provided location is:
+
+43.8407425, 18.3262514
+
+The public Google Maps listing is for:
+
+Stomatološka Ordinacija Dr. Aida H. Kaljanac
+
+If creating a Google Maps link, use the clinic name + address rather than inventing a Maps short URL.
+
+Do not include an API key.
+
+==================================================
+40. FINAL QUALITY CHECK
+==================================================
+
+After implementation:
+
+1. Run the project.
+2. Check for TypeScript errors.
+3. Check for console errors.
+4. Check all navigation links.
+5. Check telephone CTA.
+6. Check mobile navigation.
+7. Check FAQ accordion.
+8. Check image loading.
+9. Check responsive behavior.
+10. Check no horizontal overflow.
+11. Check H1/H2 hierarchy.
+12. Check title and meta description.
+13. Check canonical configuration.
+14. Check JSON-LD validity.
+15. Check accessibility basics.
+16. Check buttons and hover states.
+17. Check image alt text.
+18. Check that no fake information was introduced.
+19. Check that no placeholder lorem ipsum remains.
+20. Check that no fake testimonials remain.
+21. Check that no fake social links remain.
+22. Check that the design feels like a premium dental clinic rather than a generic template.
+
+==================================================
+41. IMPORTANT FINAL RULE
+==================================================
+
+If you are unsure whether a fact is true:
+
+DO NOT INVENT IT.
+
+Use the verified information in this prompt.
+
+If additional information would improve the site, create a clean data placeholder in the data layer rather than fabricating the information.
+
+The result should be a polished, production-quality DEMO suitable for sending directly to the clinic owner.
+
+Build the website now.
